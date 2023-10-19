@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  background-color: #FAEBD7;
+  overflow-y: scroll;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+}
+
+.p1 {
+  margin: 0 auto;
+margin-bottom: 30px;
+  text-align: center;
+  width: 1000px;
+  color: #666;
+}
+
+.p2{
+  margin: 10px;
+  margin-top: 40px;
+  text-align: left;
+  width: 1000px;
+  color: #666;
+}
+
+.p3{
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 1000px;
+  color: #666;
+}
+
+h2 {
+  margin:10px;
+  margin-top: 50px;
+  text-align: left;
+  color: #B8860B;
+}
+
+.p4{
+  margin: 10px;
+  margin-top: 20px;
+  text-align: left;
+  width: 1000px;
+  color: #666;
+}
+
+button {
+  background-color: #B8860B;
+  color: White;
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #B8860B;
+  cursor: pointer;
+}
+
+.p5{
+  margin: 10px;
+  margin-top: 20px;
+  text-align: left;
+  width: 1000px;
+  color: #666;
+}
+
+.p6{
+  margin: 10px;
+  margin-top: 20px;
+  text-align: left;
+  width: 1000px;
+  color: #666;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  animation: moveCircle 1s infinite;
+}
+
+@keyframes moveCircle {
+  0% {
+    left: random(100vw);
+    top: random(100vh);
+  }
+
+  100% {
+    left: random(100vw);
+    top: random(100vh);
+  }
+}
+
