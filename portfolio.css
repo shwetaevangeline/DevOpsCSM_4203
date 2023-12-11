@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #dae9ff;
+}
+
+p {
+    color: #8cc9b7;
+    line-height: 1.5;
+}
+
+a {
+    color: #f2e2f5;
+    text-decoration: none;
+    border-bottom: 1px solid #f2e2f5;
+}
+
+a:hover {
+    color: #8cc9b7;
+}
+
+#home {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-icons li {
+    margin: 10px;
+}
+
+.skills-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+#about-me {
+    padding: 50px;
+}
+
+.timeline li {
+    margin-bottom: 20px;
+}
+
+.timeline h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+#works {
+    padding: 50px;
